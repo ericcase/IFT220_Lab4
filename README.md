@@ -1,6 +1,6 @@
 # IFT220_Lab4
 
-## This lab is about Group Policies and Fain Grained Password Policies.
+## This lab is about Group Policies and Fine-Grained Password Policies.
 
 ### Deliverable
 * The deliverable for the lab is the completed "IFT220 Lab4 Worksheet" from this repo
@@ -30,7 +30,7 @@
     Store passwords using reversible encryption | Disabled
 
 
-**Fain Grained Password Policy**
+**Fine-Grained Password Policy**
 * Sparky Technologies is concerned about security and knows that if an administrator account is hacked it will be a nightmare, so they want to make all **Privileged Account** holders have stronger (longer) passwords then normal users.  
 * The Information Security Officer found https://blogs.technet.microsoft.com/canitpro/2013/05/29/step-by-step-enabling-and-using-fine-grained-password-policies-in-ad online and wants you, the AD Lead, to implement it on the domain with a **minimum password of 17 characters** and a **maximum password age of 30 days**.
 * She knows it should be applied to the IT, but what to know if there are other Privileged Accounts.
