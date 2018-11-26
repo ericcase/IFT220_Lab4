@@ -18,11 +18,11 @@ As you read in Chapter 2, "Active Directory is highly dependent on all of the do
 **Default Password Policy**
 1. Create a GPO in your domain, and link it to our domain.  Configure the Account Policies/Password Policy as followes:
 
-Policy | Setting
-------------------------------------------- | -------
-Maximum password age | 90 days
-Minimum password age | 10 days
-Minimum password length | 10 characters
-Password must meet complexity requirements | Enabled
-Store passwords using reversible encryption | Disabled
+    Policy | Setting
+    ------------------------------------------- | -------
+    Maximum password age | 90 days
+    Minimum password age | 10 days
+    Minimum password length | 10 characters
+    Password must meet complexity requirements | Enabled
+    Store passwords using reversible encryption | Disabled
 
