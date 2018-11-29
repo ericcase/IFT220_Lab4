@@ -19,7 +19,7 @@
 
 
 **Default Password Policy**
-1. Create a GPO in your domain and link it to our domain.  Configure the Account Policies/Password Policy as follows:
+1. Create a GPO in your domain and link it to your domain.  Configure the Account Policies/Password Policy as follows:
 
     Policy | Setting
     ------------------------------------------- | -------
