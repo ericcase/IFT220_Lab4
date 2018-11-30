@@ -14,7 +14,7 @@
  
 **Time Synchronization**
 * As you read in Chapter 2, "Active Directory is highly dependent on all of the domain controllers and domain members having synchronized clocks" (Desmond, B., Richards, J., Allen, R., & Lowe-Norris, A. G. (2013). *Active Directory* (Fifth). O’Reilly Media.).
-1. In general, we're following this https://www.altaro.com/hyper-v/configuring-time-synchronization-for-all-computers-in-windows-domain
+1. We're following the "Configuring the Windows Time service to use an external time source" section at https://support.microsoft.com/en-us/help/816042/how-to-configure-an-authoritative-time-server-in-windows-server and using this list of peers `0.pool.ntp.org,0x1 1.pool.ntp.org,0x1 2.pool.ntp.org,0x1 3.pool.ntp.org,0x1` is step 4.
     1. If you are running VirtualBox, here's how to disable time sync on your VM https://superuser.com/questions/984040/how-to-disable-time-sync-with-windows-7-as-host-os-in-virtualbox/984041
 
 
